@@ -1,32 +1,44 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Flash Chat
 
+## Table of Contents
+1. [Overview](#Overview)
+2. [Product Specs](#Product-Specs)
+3. [App Walkthrough](#App-Walkthrough)
+4. [Libraries](#Libraries)
+5. [Backend](#Backend)
+6. [Credits](#Credits)
 
-# Flash Chat ⚡️
+## Overview
+### Description
 
-## Our Goal
+Flash Chat is an internet based messaging app similar to WhatsApp, the popular messaging app that was bought by Facebook for $22 billion. We will be using a service called Firebase as a backend data server to store and retrieve our messages from the cloud.
 
-The objective of this tutorial is to learn how to incorporate Firebase into our Flutter apps. We'll be using Firebase Cloud Firestore as well as the Firebase authentication package to equip our app with a cloud based NoSQL database and secure authentication methods. 
+## Product Specs
+### User Stories
 
+- [x] User shall be able to see the title animation in the welcome screen.
+- [x] User shall be able to log in and log out of his or her account.
+- [x] User shall be able to sign up to create a new account using Firebase authentication.
+- [x] User shall be able to send messages.
+- [x] User shall be able to receive messages.
 
-## What you will create
+## App Walkthrough
 
-We’re going to build a modern messaging app where users can sign up and log in to chat.
+Here's a GIF of how the app works:
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/flash_chat_flutter_demo.gif)
+<img src="ADD_GIF_LINK" width=250>
 
-## What you will learn
+<img src="ADD_GIF_LINK" width=250>
 
-- How to incorporate Firebase into your Flutter projects.
-- How to use Firebase authentication to register and sign in users.
-- How to create beautiful animations using the Flutter Hero widget.
-- How to create custom aniamtions using Flutter's animation controller. 
-- Learn all about mixins and how they differ from superclasses.
-- Learn about Streams and how they work.
-- Learn to use ListViews to build scrolling views.
-- How to use Firebase Cloud Firestore to store and retrieve data on the fly.
+## Libraries
 
+- [animated_text_kit](https://github.com/aagarwal1012/Animated-Text-Kit) - A Flutter package which contains a collection of some cool and awesome text animations.
+- [modal_progress_hud](https://github.com/mmcc007/modal_progress_hud) - A simple widget wrapper to enable modal progress HUD (a modal progress indicator, HUD = Heads Up Display).
 
+## Backend
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+- [Firebase](https://firebase.google.com/) - Is a Backend-as-a-Service (BaaS) framework that helps you quickly develop high-quality apps and grow your business.
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+## Credits
+
+>This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/).

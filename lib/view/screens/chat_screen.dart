@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:flash_chat/constants.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flash_chat/model/constants.dart';
+import 'package:flutter/material.dart';
 
 final _firestore = Firestore.instance;
 FirebaseUser loggedInUser;
@@ -36,22 +36,6 @@ class _ChatScreenState extends State<ChatScreen> {
     }
   }
 
-//  void getMessages() async {
-//    final messages = await _firestore.collection('messages').getDocuments();
-//
-//    for (var message in messages.documents) {
-//      print(message.data);
-//    }
-//  }
-
-  void messagesStream() async {
-    await for (var snapshot in _firestore.collection('messages').snapshots()) {
-      for (var message in snapshot.documents) {
-        print(message.data);
-      }
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,9 +46,8 @@ class _ChatScreenState extends State<ChatScreen> {
               icon: Icon(Icons.close),
               onPressed: () {
                 //Implement logout functionality
-                messagesStream();
-//                _auth.signOut();
-//                Navigator.pop(context);
+                _auth.signOut();
+                Navigator.pop(context);
               }),
         ],
         title: Text('⚡️Chat'),
@@ -131,7 +114,7 @@ class MessagesStream extends StatelessWidget {
         }
 
         final messages = snapshot.data.documents.reversed;
-        List<MessageBubble> messageBubbles = [];
+        var messageBubbles = <MessageBubble>[];
 
         for (var message in messages) {
           final messageText = message.data['text'];
