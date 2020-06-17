@@ -26,9 +26,9 @@ Flash Chat is an internet based messaging app similar to WhatsApp, the popular m
 
 Here's a GIF of how the app works:
 
-<img src="ADD_GIF_LINK" width=250>
+<img src="https://user-images.githubusercontent.com/35745973/84841740-0c387c00-aff8-11ea-8302-de63a969bfea.gif" width=250>
 
-<img src="ADD_GIF_LINK" width=250>
+<img src="https://user-images.githubusercontent.com/35745973/84841737-05aa0480-aff8-11ea-90e1-850388290dca.gif" width=250>
 
 ## Libraries
 
