@@ -26,14 +26,16 @@ Flash Chat is an internet based messaging app similar to WhatsApp, the popular m
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/84841740-0c387c00-aff8-11ea-8302-de63a969bfea.gif" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/flutter/ios/flutter-ios-flash-chat.gif" width=250>
 
-<img src="https://user-images.githubusercontent.com/35745973/84841737-05aa0480-aff8-11ea-90e1-850388290dca.gif" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/flutter/android/flutter-android-flash-chat.gif" width=250>
 
 ## Libraries
 
 - [animated_text_kit](https://github.com/aagarwal1012/Animated-Text-Kit) - A Flutter package which contains a collection of some cool and awesome text animations.
+- [cupertino_icons](https://github.com/flutter/cupertino_icons) - This is an asset repo containing the default set of icon assets used by Flutter's [Cupertino widgets](https://github.com/flutter/flutter/tree/master/packages/flutter/lib/src/cupertino).
 - [modal_progress_hud](https://github.com/mmcc007/modal_progress_hud) - A simple widget wrapper to enable modal progress HUD (a modal progress indicator, HUD = Heads Up Display).
+- [pedantic](https://github.com/dart-lang/pedantic) - Most of the recommended lints directly implement the guidelines set out in [Effective Dart](https://dart.dev/guides/language/effective-dart).
 
 ## Backend
 
